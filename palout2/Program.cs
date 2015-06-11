@@ -18,8 +18,8 @@ namespace palout2
             OutputPort i3 = new OutputPort(Pins.GPIO_PIN_16, false);
             OutputPort i4 = new OutputPort(Pins.GPIO_PIN_17, false);
             OutputPort i5 = new OutputPort(Pins.GPIO_PIN_18, false);
-            OutputPort i6 = new OutputPort(Pins.GPIO_PIN_19, false);
-        //   OutputPort i7 = new OutputPort(Pins.GPIO_PIN_20, false);
+        //    OutputPort i6 = new OutputPort(Pins.GPIO_PIN_19, false);
+        //    OutputPort i7 = new OutputPort(Pins.GPIO_PIN_20, false);
 
             while (true)
             {
@@ -30,19 +30,19 @@ namespace palout2
                 i2.Write(true);
                 i3.Write(false);
               //  i7.Write(false);
-                i6.Write(false);
+              //  i6.Write(false);
                 i5.Write(false);
                 i4.Write(false);
                 i3.Write(false);
                 Thread.Sleep(250);
               //  i7.Write(false);
-                i6.Write(false);
+              //  i6.Write(false);
                 i5.Write(false);
                 i4.Write(false);
                 i3.Write(false);
                 Thread.Sleep(250);
             //    i7.Write(false);
-               i6.Write(false);
+            //    i6.Write(false);
                i5.Write(false);
                i4.Write(false);
                i3.Write(false);
@@ -58,7 +58,7 @@ namespace palout2
                 i3.Write(false);
                 i4.Write(false);
                 i5.Write(false);
-                i6.Write(false);
+            //    i6.Write(false);
             //    i7.Write(false);
                 Thread.Sleep(725);
                 i0.Write(true);
@@ -67,7 +67,7 @@ namespace palout2
                 i3.Write(false);
                 i4.Write(false);
                 i5.Write(false);
-                i6.Write(false);
+             //   i6.Write(false);
             //    i2.Write(true);
             //    i3.Write(true);
             //    i4.Write(true);
@@ -87,7 +87,7 @@ namespace palout2
                 i3.Write(false);
                 i4.Write(false);
                 i5.Write(false);
-                i6.Write(false);
+          //      i6.Write(false);
             }
 
         }

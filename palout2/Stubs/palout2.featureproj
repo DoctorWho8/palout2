@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <FeatureName>palout2</FeatureName>
-    <Guid>{9fa7769f-0cc1-4669-b08e-58ca2a9ef015}</Guid>
+    <Guid>{83b5d915-4893-41b8-9684-4975a69a017e}</Guid>
     <Description>&lt;Add Feature Description Here&gt;</Description>
     <Groups />
   </PropertyGroup>
@@ -10,6 +10,6 @@
     <DriverLibs Include="palout2.$(LIB_EXT)" />
     <InteropFeature Include="palout2" />
     <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\$(ENDIANNESS)\palout2.pe" />
-    <RequiredProjects Include="C:\Users\GCL\Documents\Visual Studio 2010\Projects\Mini\palout2\palout2\Stubs\dotnetmf.proj" />
+    <RequiredProjects Include="C:\Users\GCL.CMDRSKYWALKER.000\Documents\Visual Studio 2010\Projects\Mini\palout2\palout2\Stubs\dotnetmf.proj" />
   </ItemGroup>
 </Project>
